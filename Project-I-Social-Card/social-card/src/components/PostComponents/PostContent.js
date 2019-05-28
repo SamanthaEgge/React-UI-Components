@@ -7,7 +7,7 @@ import Footer from '../FooterComponents/Footer'
 
 const PostContent = () => {
     return(
-        <div>
+        <div className='post-container'>
             <HeaderContainer />
             <CardContainer />
             <Footer />

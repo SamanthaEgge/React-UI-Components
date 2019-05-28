@@ -6,7 +6,7 @@ import PostContent from './components/PostComponents/PostContent'
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <UserThumbnail />
       <PostContent />
     </div>
