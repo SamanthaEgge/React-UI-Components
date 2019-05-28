@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+import UserThumbnail from './components/PostComponents/UserThumbnail';
+import PostContent from './components/PostComponents/PostContent'
+
 const App = () => {
   return (
     <div>
@@ -17,6 +20,8 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <UserThumbnail />
+      <PostContent />
     </div>
   );
 };
