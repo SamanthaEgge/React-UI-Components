@@ -1,0 +1,7 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 700px;
+    border: 2px solid #a5a5a5;
+}
